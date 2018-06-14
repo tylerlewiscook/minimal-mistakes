@@ -1,16 +1,14 @@
 ---
 title: About
 permalink: /about/
+layout: single
 author_profile: true
 ---
 
-This is an about page about this awesome site.
-Hope you love it!
+This is an about page.
 
 Reasons:
 - its great.
 - its a test.
 
-## Other thoughts
-
-This is great.
+## Other 
