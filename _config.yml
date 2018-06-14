@@ -136,7 +136,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - about
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
