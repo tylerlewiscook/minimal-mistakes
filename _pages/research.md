@@ -1,6 +1,6 @@
 ---
 title: Research
-permalink: /researcg/
+permalink: /research/
 layout: single
 author_profile: true
 ---
