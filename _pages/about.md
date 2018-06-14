@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 This is an about page about this awesome site.
