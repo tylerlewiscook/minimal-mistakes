@@ -5,7 +5,7 @@ main:
   - title: "External Link"
     url: http://google.com
    - title: "About"
-     url: /about/
+    permalink: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
