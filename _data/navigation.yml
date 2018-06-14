@@ -4,7 +4,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "External Link"
     url: http://google.com
-   - title: "About"
+  - title: "About"
     permalink: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
