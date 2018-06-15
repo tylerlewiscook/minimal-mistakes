@@ -20,6 +20,6 @@ While at the University of Missouri, I consulted for members of an evolutionary 
 * Model Flexibility for Regression Analysis of Survival Data with Informative Interval Censoring.  ENAR 2015 Spring Meeting, Miami, FL, March 2015.
 
 ## Selected Student Presentations
-* Techniques for Providing Optimal Regulation Levels for Injection Wells in Oklahoma.  National Council for Undergraduate Research, Edmond, OK, April 2018.
-* Evaluating Whether Online Reviews Influence Airline Choice.  National Council for Undergraduate Research, Edmond, OK, April 2018.
+* Techniques for Providing Optimal Regulation Levels for Injection Wells in Oklahoma.  National Council for Undergraduate Research, Edmond, OK, April 2018. Presented by W. Cranford.
+* Evaluating Whether Online Reviews Influence Airline Choice.  National Council for Undergraduate Research, Edmond, OK, April 2018. Presented by A. Kouadio.
 * Determining Factors for Elderly Independent Living. National Council for Undergraduate Research, Memphis, TN, April 2017.  Presented by E. Kelting, L. Lerma, and D. Seagle.
