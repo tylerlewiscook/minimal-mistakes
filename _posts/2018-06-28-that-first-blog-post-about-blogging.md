@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: single
 title: That First Blog Post About Blogging
+author_profile: true
 ---
 
 To get things started off, I thought I would explain some of the details about how this site came into existence.  I can’t remember coming across any particular site that really served as motivation, but somehow, I read about [GitHub Pages](https://pages.github.com/) and Jekyll.  I don’t really have any experience with website creation and design so I had to rely on Google and the numerous resources that others have graciously shared online to figure out how to get things to work. 
