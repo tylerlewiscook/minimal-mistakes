@@ -7,6 +7,6 @@ To get things started off, I thought I would explain some of the details about h
 
 Starting with the basics, I found this YouTube video which appears to be a recording of a workshop from the University of Idaho Library:
 
-[![IMAGE ALT TEXT HEGo Go gh-pages! Build a website with GitHub Pages and Jekyll (workshop)RE](https://img.youtube.com/vi/SWVjQsvQocA&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=SWVjQsvQocA&feature=youtu.be)
+[![Workshop video](https://img.youtube.com/vi/SWVjQsvQocA/0.jpg)](https://www.youtube.com/watch?v=SWVjQsvQocA)
 
 After watching most of that video and looking over the accompanying website, I decided I would take a learn-by-doing approach and start working on customizing my own site.  First off, I wanted to pick a slick theme.  None of the built-in Jekyll themes available straight form GitHub Pages did too much for me so I did some searching for alternatives.  That’s when I came across [Minimal Mistakes]( https://mmistakes.github.io/minimal-mistakes/) and the corresponding (and super helpful) [Quick-Start Guide]( https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).  There is a Minimal Mistakes template available on GitHub that I forked and started editing.  And that brings us to here...
