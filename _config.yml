@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Tyler Cook"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : 
   location         : "Oklahoma City, Oklahoma"
   email            :
