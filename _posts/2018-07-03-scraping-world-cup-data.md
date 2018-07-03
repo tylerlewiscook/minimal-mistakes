@@ -2,7 +2,7 @@
 layout: single
 title: Scraping World Cup Goal Data
 author_profile: true
-categories: 
+tags: 
   - R
   - Web scraping
   - World Cup
