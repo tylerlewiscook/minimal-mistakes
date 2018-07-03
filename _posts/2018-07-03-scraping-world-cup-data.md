@@ -1,6 +1,6 @@
 ---
 layout: single
-title: That First Blog Post About The Blog
+title: Scraping World Cup Goal Data
 author_profile: true
 categories: 
   - R
