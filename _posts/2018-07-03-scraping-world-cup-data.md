@@ -2,6 +2,7 @@
 layout: single
 title: Scraping World Cup Goal Data
 author_profile: true
+excerpt_separator: "<!--more-->"
 tags: 
   - R
   - Web scraping
@@ -11,7 +12,7 @@ tags:
 Watching the World Cup over the last couple of weeks has got me wondering several things.  Is the stoppage time determination completely arbitrary?  What is with that magical medical spray? Will Neymar ever walk the same after that [vicious injury](https://www.reddit.com/r/soccer/comments/8vjhtz/neymar_rolling_around_in_pain_after_getting/)?
 
 Several of these questions are difficult to answer, but one potential thing I could investigate is the distribution of when goals are scored during a game.  I'm interested in things like comparing the frequency of goals scored in each half and seeing if there is an increase in goals near the end of the game.  As far as the statistics go, my curiosity could be satisfied with some simple plots so finding the right data is probably the only challenging thing I will need to do.
-
+<!--more-->
 A quick Google search did not yield the exact data that I needed so I would have to compile everything myself.  This wasn't a deterrence, however, because it presented an excellent opportunity to refresh my web scraping skills in R.  I decided to scrape the data from Wikipedia using the [rvest](https://github.com/hadley/rvest) package in coordination with [SelectorGadget](https://selectorgadget.com/).
 
 Here is the bit of code that got me started:
