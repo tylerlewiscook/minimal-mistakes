@@ -2,7 +2,7 @@
 layout: single
 title: Scraping World Cup Goal Data
 author_profile: true
-excerpt_separator: "\n---\n"
+excerpt_separator: <!--more-->
 categories: 
   - R
   - Web scraping
@@ -10,6 +10,7 @@ categories:
 ---
 
 Watching the World Cup over the last couple of weeks has got me wondering several things.  Is the stoppage time determination completely arbitrary?  What is with that magical medical spray? Will Neymar ever walk the same after that [vicious injury](https://www.reddit.com/r/soccer/comments/8vjhtz/neymar_rolling_around_in_pain_after_getting/)?
+<!--more-->
 
 Several of these questions are difficult to answer, but one potential thing I could investigate is the distribution of when goals are scored during a game.  I'm interested in things like comparing the frequency of goals scored in each half and seeing if there is an increase in goals near the end of the game.  As far as the statistics go, my curiosity could be satisfied with some simple plots so finding the right data is probably the only challenging thing I will need to do.
 
