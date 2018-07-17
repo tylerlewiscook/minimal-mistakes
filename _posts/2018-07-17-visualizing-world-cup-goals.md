@@ -14,8 +14,8 @@ By year
 
 By "half"
 
-[Imgur](https://i.imgur.com/x3FcqjW.png)
+![Imgur](https://i.imgur.com/x3FcqjW.png)
 
 All
 
-[Imgur](https://i.imgur.com/IEjNDG6.png)
+![Imgur](https://i.imgur.com/IEjNDG6.png)
