@@ -8,6 +8,14 @@ tags:
   - World Cup
 ---
 
-Test test
+By year
 
 ![Imgur](https://i.imgur.com/tRO9GIR.png)
+
+By "half"
+
+[Imgur](https://i.imgur.com/x3FcqjW.png)
+
+All
+
+[Imgur](https://i.imgur.com/IEjNDG6.png)
