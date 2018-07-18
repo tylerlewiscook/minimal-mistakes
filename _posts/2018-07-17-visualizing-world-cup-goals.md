@@ -23,6 +23,6 @@ Finally, I wanted to see if the distribution looked different for different Worl
 ![Imgur](https://i.imgur.com/tRO9GIR.png)
 The distribution seems for uniform in some years, and some years have some unique characteristics.  For example, what happened to boost the scoring right around half time in 1998?
 
-The cleaned data with corresponding code, as well as the code used to create all of the histograms (with a couple bonus plots), can be found on[my Github](https://github.com/tylerlewiscook/world-cup).
+The cleaned data with corresponding code, as well as the code used to create all of the histograms (with a couple bonus plots), can be found on [my Github](https://github.com/tylerlewiscook/world-cup).
 
 P.S. At some point during all of this I found an excellent World Cup dataset on Kaggle that includes some other useful information.  You can check that out [here](https://www.kaggle.com/abecklas/fifa-world-cup).
