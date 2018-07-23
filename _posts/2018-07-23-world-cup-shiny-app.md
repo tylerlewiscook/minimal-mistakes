@@ -1,3 +1,13 @@
+---
+layout: single
+title: World Cup Shiny App
+author_profile: true
+tags: 
+  - R
+  - ggplot2
+  - World Cup
+  - Shiny
+---
 The data for World Cup goal times caused me a bit of a headache, and I was happy to get everything sorted out so I could start exploring something new.  Nevertheless, an idea for one last visualization using this data has been stuck in my head.  
 
 My favorite plot to come out of the original analysis was the distribution of goal times broken down by year.  However, there were so many years that I was never able to get the dimensions of the plot to look quite right.  The histograms always seemed distorted in some way.  To fix this, I decided to try an interactive Shiny app where one could select individual years to visualize.
@@ -44,4 +54,4 @@ server <- function(input, output) {
 ```
 Finally, running `shinyApp(ui = ui, server = server)` will launch the app locally.  
 
-Shiny is very cool and there certainly is enough going on to justify a more in-depth post at some point in the future, but for now, this app is up and running on my [shinyapps.io](https://tylerlewiscook.shinyapps.io/WorldCupGoals/) page.
+This app is currently up and running on my [shinyapps.io](https://tylerlewiscook.shinyapps.io/WorldCupGoals/) page.  Shiny is super cool, and a little different than normal R use, so I imagine more Shiny posts will come in the future.   
