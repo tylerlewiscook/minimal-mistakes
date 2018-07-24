@@ -23,7 +23,7 @@ library(ggplot2)
 load("updated_goals.RData")
 ```
 Shiny apps have two main pieces: the user interface defintions in `ui` and the `server` function.  I want my interface to have a title panel, year input selection on the side, and plot in the main panel.  I can get that with:
-```R
+```
 ui <- fluidPage(
 
   headerPanel("When World Cup Goals Are Scored"),
