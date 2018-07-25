@@ -1,3 +1,12 @@
+---
+layout: single
+title: Quirky rvest Behavior
+author_profile: true
+tags: 
+  - R
+  - rvest
+  - Web Scraping
+---
 I've recently started a new project which involves scraping lyrics from
 the web. As before with the World Cup data, I turned to `rvest` to
 obtain the data. However, this time I noticed some weird behavior with
