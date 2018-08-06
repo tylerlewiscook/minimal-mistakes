@@ -20,7 +20,7 @@ library(wordcloud)
 
 setwd("Beatles/")
 ```
-Next, I load the data and create a corpus from the *Sgt. Pepper's* lyrics before doing some basic processing:
+Next, load the data and create a corpus from the *Sgt. Pepper's* lyrics before doing some basic processing:
 ```
 sgtp <- VCorpus(DirSource("SgtPeppers/"))
 
@@ -43,6 +43,5 @@ wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(6, "Blues"))
 ```
 The final result can be seen here:
 ![Imgur](https://i.imgur.com/7DBl1vI.png)
-Note: this word cloud only includes words with a minimum count of five.
 
 There should be some more cool stuff coming from this. I know I want to do a sentiment analysis, and I also plan on trying out the `tidytext` package.  Also, I already have at least one Shiny app planned for this data.  Stay tuned!
