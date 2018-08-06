@@ -19,7 +19,6 @@ library(tm)
 library(wordcloud)
 
 setwd("Beatles/")
-
 ```
 Next, I load the data and create a corpus from the *Sgt. Pepper's* lyrics before doing some basic processing:
 ```
