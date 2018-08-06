@@ -44,3 +44,4 @@ wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(6, "Blues"))
 ```
 The final result can be seen here:
 ![Imgur](https://i.imgur.com/7DBl1vI.png)
+Note: this word cloud only includes words with a minimum count of five.
