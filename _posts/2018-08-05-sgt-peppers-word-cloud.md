@@ -32,7 +32,7 @@ sgtp <- tm_map(sgtp, removeWords, stopwords("english"))
 ```
 I did some transformations like: removing punctuation, removing any numbers, and converting to lower case.  Importantly, I also removed "stop words" (words like "the"), but I did not do any stemming.
 
-From there, I created the document-term matix, and then a few more lines of code produced the word cloud:
+From there, I created the document-term matix, and onlt a few more lines of code were needed to produce the word cloud.  Note that I am only including words with a minimum frequency of five.
 ```
 dtm <- DocumentTermMatrix(sgtp)
 
@@ -41,8 +41,7 @@ freq <- colSums(as.matrix(dtm))
 set.seed(1)
 wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(6, "Blues"))
 ```
-The final result can be seen [here](https://i.imgur.com/7DBl1vI.png):
-![Imgur](https://i.imgur.com/7DBl1vI.png)
+The final result can be seen [here](https://i.imgur.com/oVXNNpZ.png):
 ![Imgur](https://i.imgur.com/oVXNNpZ.png)
 
 There should be some more cool stuff coming from this. I know I want to do a sentiment analysis, and I also plan on trying out the `tidytext` package.  Also, I already have at least one Shiny app planned for this data.  Stay tuned!
