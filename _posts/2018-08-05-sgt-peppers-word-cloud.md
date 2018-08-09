@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Sgt. Peppers Word Cloud
+title: Sgt. Pepper's Word Cloud
 author_profile: true
 tags: 
   - R
@@ -43,5 +43,6 @@ wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(6, "Blues"))
 ```
 The final result can be seen [here](https://i.imgur.com/7DBl1vI.png):
 ![Imgur](https://i.imgur.com/7DBl1vI.png)
+![Imgur](https://i.imgur.com/oVXNNpZ.png)
 
 There should be some more cool stuff coming from this. I know I want to do a sentiment analysis, and I also plan on trying out the `tidytext` package.  Also, I already have at least one Shiny app planned for this data.  Stay tuned!
