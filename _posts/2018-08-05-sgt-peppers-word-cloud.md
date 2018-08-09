@@ -39,7 +39,7 @@ dtm <- DocumentTermMatrix(sgtp)
 freq <- colSums(as.matrix(dtm))
 
 set.seed(1)
-wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(6, "Blues"))
+wordcloud(names(freq), freq, min.freq = 5, colors = brewer.pal(3, "Accent"))
 ```
 The final result can be seen [here](https://i.imgur.com/oVXNNpZ.png):
 ![Imgur](https://i.imgur.com/oVXNNpZ.png)
