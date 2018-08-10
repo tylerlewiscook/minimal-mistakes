@@ -32,7 +32,7 @@ sgtp <- tm_map(sgtp, removeWords, stopwords("english"))
 ```
 I did some transformations like: removing punctuation, removing any numbers, and converting to lower case.  Importantly, I also removed "stop words" (words like "the"), but I did not do any stemming.
 
-From there, I created the document-term matix, and onlt a few more lines of code were needed to produce the word cloud.  Note that I am only including words with a minimum frequency of five.
+From there, I created the document-term matix, and only a few more lines of code were needed to produce the word cloud.  Note that I am only including words with a minimum frequency of five.
 ```
 dtm <- DocumentTermMatrix(sgtp)
 
