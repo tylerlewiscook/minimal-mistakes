@@ -14,14 +14,14 @@ As my last post hinted at, I've been working on scraping Beatles lyrics from the
 I have several analyses planned using this data.  To get things started, I thought I'd create a simple word cloud for *Sgt. Pepper's Lonely Hearts Club Band*.  The code is really simple and I'm using the `tm` and `wordcloud` packages.  I have the songs for each album in their own folder, and all of the album folders are in a folder called "Beatles" that is in my usual R working directory.
 
 First, load the packages and set the working directory:
-```{r}
+```
 library(tm)
 library(wordcloud)
 
 setwd("Beatles/")
 ```
 Next, load the data and create a corpus from the *Sgt. Pepper's* lyrics before doing some basic processing:
-```{r}
+```
 sgtp <- VCorpus(DirSource("SgtPeppers/"))
 
 sgtp <- tm_map(sgtp, removePunctuation)
@@ -33,7 +33,7 @@ sgtp <- tm_map(sgtp, removeWords, stopwords("english"))
 I did some transformations like: removing punctuation, removing any numbers, and converting to lower case.  Importantly, I also removed "stop words" (words like "the"), but I did not do any stemming.
 
 From there, I created the document-term matix, and only a few more lines of code were needed to produce the word cloud.  Note that I am only including words with a minimum frequency of five.
-```{r}
+```
 dtm <- DocumentTermMatrix(sgtp)
 
 freq <- colSums(as.matrix(dtm))
