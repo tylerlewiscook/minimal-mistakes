@@ -14,7 +14,7 @@ As my last post hinted at, I've been working on scraping Beatles lyrics from the
 I have several analyses planned using this data.  To get things started, I thought I'd create a simple word cloud for *Sgt. Pepper's Lonely Hearts Club Band*.  The code is really simple and I'm using the `tm` and `wordcloud` packages.  I have the songs for each album in their own folder, and all of the album folders are in a folder called "Beatles" that is in my usual R working directory.
 
 First, load the packages and set the working directory:
-```{R}
+```
 library(tm)
 library(wordcloud)
 
