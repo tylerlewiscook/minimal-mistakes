@@ -13,16 +13,15 @@ obtain the data. However, this time I noticed some weird behavior with
 the results.
 
 Here is what happened:
-
+```r
     library(rvest)
-
-    ## Loading required package: xml2
 
     ppm <- read_html("http://lyrics.wikia.com/wiki/The_Beatles:Please_Please_Me")
 
     ppm %>% html_node('.lyricbox') %>% html_text()
 
     ## [1] "Last night I said these words to my girlI know you never even try, girlCome on (come on), come on (come on)Come on (come on), come on (come on)Please please me, whoa, yeahLike I please youYou don't need me to show the way, loveWhy do I always have to say \"love\"?Come on (come on), come on (come on)Come on (come on), come on (come on)Please please me, whoa, yeahLike I please youI don't wanna sound complainingBut you know there's always rain in my heart (in my heart)I do all the pleasing with youIt's so hard to reason With you, whoa yeahWhy do you make me blue?Last night I said these words to my girlI know you never even try, girlCome on (come on), come on (come on)Come on (come on), come on (come on)Please please me, whoa, yeahLike I please you(Please) me, whoa, yeahLike I please you(Please) me, whoa, yeahLike I please you\n"
+```
 
 As you can see, some of the words are concatenated. This will cause
 serious problems for a text analysis since "girlI" is not an actual
@@ -41,7 +40,7 @@ the r/rstats subreddit for help, and fortunately
 posted a nice solution that seems to work!
 
 Here is my slightly modified solution taken from Schrodingers-Human:
-
+```r
     library(rvest)
     library(stringr)
 
@@ -54,5 +53,6 @@ Here is my slightly modified solution taken from Schrodingers-Human:
         str_replace_all("<br>", " ")
 
     ## [1] "Last night I said these words to my girl I know you never even try, girl Come on (come on), come on (come on) Come on (come on), come on (come on) Please please me, whoa, yeah Like I please you  You don't need me to show the way, love Why do I always have to say \"love\"? Come on (come on), come on (come on) Come on (come on), come on (come on) Please please me, whoa, yeah Like I please you  I don't wanna sound complaining But you know there's always rain in my heart (in my heart) I do all the pleasing with you It's so hard to reason With you, whoa yeah Why do you make me blue?  Last night I said these words to my girl I know you never even try, girl Come on (come on), come on (come on) Come on (come on), come on (come on) Please please me, whoa, yeah Like I please you (Please) me, whoa, yeah Like I please you (Please) me, whoa, yeah Like I please you"
+```
 
 Looks much better.
