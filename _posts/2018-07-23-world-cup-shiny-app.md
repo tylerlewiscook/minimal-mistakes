@@ -15,7 +15,7 @@ My favorite plot to come out of the original analysis was the distribution of go
 The visualization I have in mind is really simple and shouldn't take too much coding.  And yes, that is exactly what I *incorrectly* assumed when I initially scraped the data.  Fortunately, things went better this time.
 
 First off, I need to load the data and necessary packages.  Since this app is going to be very simple, two packages will do:
-```
+```r
 library(shiny)
 library(ggplot2)
 
