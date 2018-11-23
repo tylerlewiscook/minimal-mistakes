@@ -17,6 +17,6 @@ Once that was done, I was ready to proceed with the analysis.  I mainly wanted t
 
 ![Imgur](https://i.imgur.com/HIVgi3T.png)
 
-
+The correlation is not very strong, and the scatterplot seems to back that up.  There are a number of players who were significantly under-ranked as well as several over-ranked (some due to injury and some not).  I think the main takeaway is that projecting individual performance in a sport like football is hard, and as an extremely unsuccessful fantasy owner, that makes me feel a little better.
 
 As usual, the code and data can be found on [my Github](https://github.com/tylerlewiscook/fantasy-football).
