@@ -9,6 +9,6 @@ I am an Assistant Professor in the [Department of Mathematics & Statistics](http
 
 ## Contact Info
 * Mail: 100 N University Dr - Box 129, Edmond, OK 73034
-* Office: MCS 123
+* Office: STEM 240
 * Phone: (405)974-5620
 * Email: tcook14@uco.edu
