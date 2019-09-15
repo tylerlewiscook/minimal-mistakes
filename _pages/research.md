@@ -10,7 +10,7 @@ My main research interests are in survival analysis focusing on interval-censore
 While at the University of Missouri, I consulted for members of an evolutionary biology lab, and for a psychologist studying autism.  At the University of Central Oklahoma, I work with groups of undergraduates undertaking consulting work as part of [Project SCHOLAR](http://math.uco.edu/resources/scholar/index.html).
 
 ## Selected Publications
-* Cook, T., Ma, Y., and Gamagedara, S. Evaluation of Statistical Techniques to Normalize Mass Spectrometry-based Urinary Metabolomics Data. Accepted in *Journal of Pharmaceutical and Biomedical Analysis*.
+* Cook, T., Ma, Y., and Gamagedara, S. Evaluation of Statistical Techniques to Normalize Mass Spectrometry-Based Urinary Metabolomics Data. Accepted in *Journal of Pharmaceutical and Biomedical Analysis*.
 * Fu, J., Li, F., Ong, M., Cook, T., Qian, G., and Zhao, Y.D. (2018). A Novel Approach for Assessing Power Wheelchair Users' Mobility by Using Curve Fitting. Duffy V. (eds) *Digital Human Modeling. Applications in Health, Safety, Ergonomics, and Risk Management*. DHM 2018. Lecture Notes in Computer Science, vol 10917. Springer, Cham.
 * Cook, T., Zhang, Z., and Sun, J. (2017). Simulation Studies on the Effects of the Censoring Distribution Assumption in the Analysis of Interval-censored Failure Time Data. *Monte-Carlo Simulation-Based Statistical Modeling*, Editors: Chen, D.G. and Chen, J.D., Springer, 319-346.
 
